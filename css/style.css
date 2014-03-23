@@ -1,0 +1,115 @@
+body {
+	background-color:#232323;
+
+}
+
+p {
+	font-color:white;
+}
+
+.photoscroll {
+	position: absolute;
+	overflow: hidden;
+	max-width: 100%;
+	box-shadow: 0 0 10px black inset
+}
+
+.dropdown {
+position:relative;
+/*z-index:9999;*/
+}
+
+
+.overlay {
+
+position: relative;
+top: 1px;
+z-index: 100;
+margin-left: auto;
+margin-right: auto;
+text-align: center;
+}
+
+.top-bar {
+	z-index: 9999;
+}
+
+label{ 
+	color: white;
+}
+
+.panel {
+  border-style: none;
+  border-width: 1px;
+  border-color: #d8d8d8;
+  margin-bottom: 1.25rem;
+  padding: 1.25rem;
+  background: #232323; 
+  
+}
+
+.panel h1, .panel h2, .panel h3, .panel h4, .panel h5, .panel h6, .panel p {
+    color: #ffffff; }
+
+.about-paragraph{
+	color: #ffffff;
+}
+
+.centered-headline {
+	position: center;
+}
+
+.img-left-pad {
+	padding-left: 12px;
+}
+
+.test2 {
+	position: absolute;
+	color: white;
+	font-size: 100px;
+	top: 50px;
+	left: 40%;
+	z-index: 100000;
+	border: 1px #232323 solid;
+	border-radius: 16px;
+}
+
+.headline h1, p {
+	text-align:center;
+	color: #E0E0E0;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+#drop {
+z-index: 100000;
+
+}
+
+button:hover, button:focus, .button:hover, .button:focus {
+background-color: #007095;
+z-index: 100000;
+}
+
+.order-head h1, h2, h3 {
+	color:#E0E0E0;
+	font-family: sans-serif;
+}
+
+
+/* Order page Calendar */
+
+.order-prices {
+	color:white;
+	list-style: none;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+.order-prices li{
+	list-style: none;
+}
+
+element.style {
+margin: 0;
+width: 485px;
+height: 81px;
+}
