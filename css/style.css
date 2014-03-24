@@ -82,11 +82,30 @@ label{
 
 #drop {
 z-index: 100000;
-
 }
 
+
+.informationUs{
+	padding-top: 30px;
+	margin-bottom: 50px;
+}
+
+.aboutUs{
+	margin-bottom: 50px;
+}
+
+.contactUs{
+	margin-bottom: 200px;
+}
+ /* animatescroll colors*/
+#section-1{background:#232323}
+#section-2{background:#232323}
+#section-3{background:#232323}
+#section-4{background:#232323}
+#section-5{background:#232323}
+#section-6{background:#232323}
 button:hover, button:focus, .button:hover, .button:focus {
-background-color: #007095;
+background-color: #232323;
 z-index: 100000;
 }
 
@@ -102,6 +121,8 @@ z-index: 100000;
 	color:white;
 	list-style: none;
 	font-family: 'Ubuntu', sans-serif;
+	margin-top: 50px;
+	margin-bottom: 10px;
 }
 
 .order-prices li{
@@ -112,4 +133,12 @@ element.style {
 margin: 0;
 width: 485px;
 height: 81px;
+}
+
+.hidden {
+	display:none;
+}
+
+.submitButton {
+	float:left;
 }

@@ -29,10 +29,10 @@
 
     <!-- Left Nav Section -->
     <ul class="left">
-      <li><a href="#">home</a></li>
-      <li><a href="#">jobs</a></li>
-      <li><a href="#">news</a></li>
-      <li><a href="#">contact</a></li>
+      <li><a href="index.html">home</a></li>
+      <li><a href="index.html">jobs</a></li>
+      <li><a href="index.html">news</a></li>
+      <li><a href="index.html">contact</a></li>
     </ul>
   </section>
 </nav>
@@ -54,27 +54,32 @@
     </div>
 
      <div class="row">
-      <div class="large-6 medium-6 small-none columns">
+      <div class="large-8 medium-8 small-none columns">
         <img src="img/heli2.jpg">
       </div>
-      <div class="large-6 medium-6 small-12 columns">
+      <div class="large-4 medium-4 small-12 columns">
         <p>helicopter assisted ski touring has taken off. why stand in the tram line when you can take an early morning heli-lift to the top of the mountains and spend the entire day touring the backcountry before returning to teton village?</p>
         <p> reservations for the 2014 heli-ski season are being accepted and good availability still exists throughout the year. you may reserve on line through this web site or by calling us at (800) 555-5555. We are looking forward to skiing and riding with you in 2014.</p>
-        <div class="order-prices">
+      </div>
+
+    <br>
+
+    </div>
+      <div class="row">
+        <div class="large-6 medium-6 columns order-prices">
+           <div class="">
           <ul>prices
             <li>$800 per person for a half day</li>
             <li>$1200 per person for a full day</li>
-          <ul>
+            <li>multi day packages are available</li>
+
+          </ul>
+            </div>
         </div>
+      </div> 
 
-
-     </div>
-
-     <br>
-     <br>
-
-     <div class="row">
-      <div class="large-8 medium-8 small-0 columns">
+    <div class="row">
+      <div class="large-6 medium-6 small-12 columns">
         <section class="main">
             <div class="custom-calendar-wrap">
               <div id="custom-inner" class="custom-inner">
@@ -154,30 +159,27 @@
               </div>
             </div>
         </section>
-        <div class="large-8 medium-8 small-0 columns order-prices">
-          <ul class=>prices
-            <li>$800 per person for a half day</li>
-            <li>$1200 per person for a full day</li>
-          <ul>
-        </div>
-      </div>
-    </div>
-      
-    
     <!--Oringinal Foundation -->
                 
         <h5>book your adventure here</h5>
-        <form>
+          
+        <p id="thank-you-message" class="hidden" style="color:green;">
+        Thank you for contacting us we'll get back to you, as soon as we can.
+        </p>
+          <form action="http://getsimpleform.com/messages?api_token=5523728c30aa5bbf40fa12cb3f5f0dd4" method="post">
+            <input type='hidden' name='redirect_to' value='orderConfirmation.html' />
 				  <div class="row">
-				    <div class="large-6 columns">
-				      <label>full name</label>
-				      <input type="text" placeholder="Your Name" />
+				    <div class="large-6 columns name-field">
+				      <label>full name <small>required</small></label>
+				      <input type="text" required pattern=" [a-zA-Z ]+"placeholder="Your Name" />
+              <small class="error">Name is required and must be a string.</small>
 				    </div>
 				  </div>
           <div class="row">
-            <div class="large-6 columns">
-              <label>email</label>
-              <input type="text" placeholder="sample@email.com" />
+            <div class="large-6 columns email-field">
+              <label>email <small>required</small></label>
+              <input type="email" required, placeholder="sample@email.com" />
+              <small class="error">An email address is required.</small>
             </div>
           </div>
           <div class="row">
@@ -198,11 +200,8 @@
               <input type="text" placeholder="mm/dd/year" />
             </div>
           </div>
-         
-            
-				  </div>
-				  <div class="row">
-				    <div class="large-6 columns">
+          <div class="row">
+				   <div class="large-6 columns">
 				      <label>number in your party</label>
 				      <select>
                 <option></option>
@@ -215,31 +214,21 @@
 				    </div>
 				  </div>
 				  <div class="row">
-				    <div class="large-6 medium-6 columns">
-				  <div class="row">
-				    <div class="large-12 columns">
+				    <div class="large-6 columns">
 				      <label>questions</label>
 				      <textarea placeholder="questions or concerns"></textarea>
 				    </div>
+            <br>
+            </div>
+              <input type="submit" value="Test" class="submit">
 				  </div>
 				</form>
-      </div>     
-
-      <!-- <div class="large-4 medium-4 columns">
-			  <h5>Try one of these buttons:</h5>
-			  <p><a href="#" class="small button">Simple Button</a><br/>
-        <a href="#" class="small radius button">Radius Button</a><br/>
-        <a href="#" class="small round button">Round Button</a><br/>            
-        <a href="#" class="medium success button">Success Btn</a><br/>
-        <a href="#" class="medium alert button">Alert Btn</a><br/>
-        <a href="#" class="medium secondary button">Secondary Btn</a></p>           
-				<div class="panel">
-        	<h5>So many components, girl!</h5>
-        	<p>A whole kitchen sink of goodies comes with Foundation. Checkout the docs to see them all, along with details on making them your own.</p>
-        	<a href="http://foundation.zurb.com/docs/" class="small button">Go to Foundation Docs</a>          
-        </div>
-      </div> -->
+      </div> 
     </div>
+  </div>
+  </div>    
+
+    
     
     <script src="js/vendor/jquery.js"></script>
     <script src="js/foundation.min.js"></script>
