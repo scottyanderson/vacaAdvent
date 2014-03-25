@@ -122,7 +122,9 @@ z-index: 100000;
 	list-style: none;
 	font-family: 'Ubuntu', sans-serif;
 	margin-top: 50px;
-	margin-bottom: 10px;
+	margin-bottom: 50px;
+	text-align: center;
+	
 }
 
 .order-prices li{
@@ -141,4 +143,8 @@ height: 81px;
 
 .submitButton {
 	float:left;
+}
+
+.book-form h4{
+	color:white;
 }
