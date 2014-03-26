@@ -48,6 +48,10 @@ label{
   
 }
 
+h1, h2, h3, h4, h5{
+	color:#ffffff;
+}
+
 .panel h1, .panel h2, .panel h3, .panel h4, .panel h5, .panel h6, .panel p {
     color: #ffffff; }
 
@@ -147,4 +151,13 @@ height: 81px;
 
 .book-form h4{
 	color:white;
+
+}
+
+.log-in {
+	text-align: center;
+}
+
+.login-button {
+	text-align: center;
 }
